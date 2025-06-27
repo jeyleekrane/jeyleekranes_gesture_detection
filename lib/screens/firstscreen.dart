@@ -9,6 +9,9 @@ class FirstScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         leading: IconButton(onPressed: (){}, icon: Icon(Icons.arrow_back_ios)),
+        actions: [
+          IconButton(onPressed: (){}, icon: Icon(Icons.home))
+        ],
       ),
       body: Center(
         child: GestureDetector(
