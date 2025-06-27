@@ -11,20 +11,16 @@ class FirstScreen extends StatelessWidget {
         leading: IconButton(onPressed: (){}, icon: Icon(Icons.arrow_back_ios)),
         actions: [
           IconButton(onPressed: (){}, icon: Icon(Icons.home))
-
         ],
       ),
       body: Center(
-
         child: GestureDetector(
           onTap: onTap
           ,
-          child: Column(
-            children: [
-              Text("",),
-              Text(".........git............")
-            ],
-          )
+          child: Container(
+            padding: EdgeInsets.all(30.0),
+            child: Text("Tapped"),
+          ),
         ),
       ),
     );
