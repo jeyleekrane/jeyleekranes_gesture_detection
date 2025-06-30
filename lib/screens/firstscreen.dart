@@ -19,7 +19,12 @@ class FirstScreen extends StatelessWidget {
           ,
           child: Container(
             padding: EdgeInsets.all(30.0),
-            child: Text("Tapped"),
+            child: Column(
+              children: [
+                Text(""),
+                Text(""),
+              ],
+            ),
           ),
         ),
       ),
